@@ -212,23 +212,23 @@
 
 
 //STEP 13     nonfunctional
-// let movies = [
-//     ['The Road to El Dorado',       1],
-//     ['The Shawshank Redemption',    2],
-//     ['Redline',                     3],
-//     ['Princess Mononoke',           4],
-//     ['Mrs. Doubtfire',              5],
-// ]
-// let actualNewMovies = []
-// for (let i of movies) {
-//     j = movies.indexOf(i)
-//     let newMovies = movies[j].filter((movie) => {
-//         //console.log(movie)
-//         return typeof movie === 'string'
-//     })
-//     console.log(newMovies)
-//     actualNewMovies[j] = newMovies[j][j]
-// }
+let movies = [
+    ['The Road to El Dorado',       1],
+    ['The Shawshank Redemption',    2],
+    ['Redline',                     3],
+    ['Princess Mononoke',           4],
+    ['Mrs. Doubtfire',              5],
+]
+let actualNewMovies = []
+for (let i of movies) {
+    j = movies.indexOf(i)
+    let newMovies = movies[j].filter((movie) => {
+        //console.log(movie)
+        return typeof movie === 'string'
+    })
+    console.log(newMovies)
+    actualNewMovies[j] = newMovies[j][j]
+}
 
 
 //STEP 14
